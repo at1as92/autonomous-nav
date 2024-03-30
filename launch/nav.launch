@@ -1,0 +1,27 @@
+<launch>
+	<!-- Perform navigation /-->
+	
+	<!-- Launch the IMU driver /-->
+	<include file="$(find smart_node)/launch/driver_imu.launch"/>
+	
+	<!-- Launch the Lidar /-->
+	<include file="$(find ydlidar_ros_driver)/launch/TG.launch"/>
+	
+	<!-- Launch the description file /-->
+	<include file="$(find dashgo_description)/launch/dashgo_description.launch"/>
+	
+	<!-- Load the map /-->
+	<arg name="map_file" default="$(find dashgo_nav)/maps/map1.yaml" />
+	<node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+	
+	<!--  Start AMCL /-->
+	<arg name="initial_pose_x" default="-0.96843"/>
+	<arg name="initial_pose_y" default="0.40266"/>
+	<arg name="initial_pose_a" default="0.107192"/>
+	<include file="$(find dashgo_nav)/launch/include/imu/amcl.launch.xml"/>
+	
+	<include file="$(find dashgo_nav)/launch/include/imu/teb_move_base.launch"/>
+	
+	<node name="gary_move_base_publisher" pkg="dashgo_tools" type="move_eaibot_OOP_changemap.py" />
+	
+</launch>

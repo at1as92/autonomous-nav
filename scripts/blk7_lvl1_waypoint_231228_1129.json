@@ -1,0 +1,93 @@
+[
+   {
+      "waypointName": "waypoint_open_area",
+      "pose": {
+         "posX": 3.2647274812411804,
+         "posY": -5.436942050423198,
+         "posZ": 0.0,
+         "orientX": 0.0,
+         "orientY": 0.0,
+         "orientZ": -0.03097927329662237,
+         "orientW": 0.9995200271260267
+      },
+      "changeMap": 0
+   },
+   {
+      "waypointName": "waypoint_corridor_start",
+      "pose": {
+         "posX": 6.376308140112319,
+         "posY": -0.6927004329918449,
+         "posZ": 0.0,
+         "orientX": 0.0,
+         "orientY": 0.0,
+         "orientZ": 0.4184988426371223,
+         "orientW": 0.9082173301095885
+      },
+      "changeMap": 0
+   },
+   {
+      "waypointName": "waypoint_corridor_middle",
+      "pose": {
+         "posX": 20.375727386437244,
+         "posY": 0.6383127457186121,
+         "posZ": 0.0,
+         "orientX": 0.0,
+         "orientY": 0.0,
+         "orientZ": -0.03203334001368401,
+         "orientW": 0.999486800877114
+      },
+      "changeMap": 1
+   },
+   {
+      "waypointName": "waypoint_corridor_end",
+      "pose": {
+         "posX": 36.898972763459206,
+         "posY": -0.13519780482314017,
+         "posZ": 0.0,
+         "orientX": 0.0,
+         "orientY": 0.0,
+         "orientZ": 0.9997961113779215,
+         "orientW": 0.020192465762926517
+      },
+      "changeMap": 0
+   },
+   {
+      "waypointName": "waypoint_corridor_middle",
+      "pose": {
+         "posX": 20.375727386437244,
+         "posY": 0.6383127457186121,
+         "posZ": 0.0,
+         "orientX": 0.0,
+         "orientY": 0.0,
+         "orientZ": -0.03203334001368401,
+         "orientW": 0.999486800877114
+      },
+      "changeMap": 1
+   },
+   {
+      "waypointName": "waypoint_classroom",
+      "pose": {
+         "posX": 5.984081000381915,
+         "posY": 1.594487642775544,
+         "posZ": 0.0,
+         "orientX": 0.0,
+         "orientY": 0.0,
+         "orientZ": 0.9565434202203105,
+         "orientW": 0.2915899264947787
+      },
+      "changeMap": 0
+   },
+   {
+      "waypointName": "waypoint_home",
+      "pose": {
+         "posX": 0.37363377301785283,
+         "posY": -0.012042704390306884,
+         "posZ": 0.0,
+         "orientX": 0.0,
+         "orientY": 0.0,
+         "orientZ": -0.00312676890657642,
+         "orientW": 0.999995116461544
+      },
+      "changeMap": 0
+   }
+]

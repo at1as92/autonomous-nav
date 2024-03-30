@@ -1,0 +1,8 @@
+<launch>
+	<!-- Load the map /-->
+	<arg name="map_file" default="$(find dashgo_nav)/maps/map2.yaml" />
+	
+	<!-- node name="kill_map_server" pkg="turtlebot3_navigation" type="kill_map_server.sh" /-->
+	<node name="map_server_2" pkg="map_server" type="map_server" args="$(arg map_file)" />
+	
+</launch>
